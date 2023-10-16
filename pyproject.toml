@@ -1,0 +1,22 @@
+[project]
+name = "ipclog"
+version = "0.0.1"
+authors = [
+  { name="vonv", email="ars.von.roseregen@gmail.com" },
+]
+description = "Non-blocking consumption of multi-process log messages"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vonsago/ipclog"
+"Bug Tracker" = "https://github.com/vonsago/ipclog/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
